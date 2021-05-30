@@ -1,0 +1,87 @@
+{
+    // Look and feel
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.suggestSelection": "first",
+    "editor.fontLigatures": true,
+
+    // Python
+    "python.pythonPath": "/home/pedro/.anaconda3/envs/shooju/bin/python",
+    "python.jediEnabled": false,
+    // "python.dataScience.debugJustMyCode": false,
+    "[python]": {
+        "editor.rulers": [72, 79]
+    },
+
+    // JavaScript
+    "javascript.updateImportsOnFileMove.enabled": "never",
+    "javascript.suggest.autoImports": true,
+
+    // TypeScript
+    "typescript.updateImportsOnFileMove.enabled": "never",
+    "typescript.suggest.autoImports": true,
+    "[typescript]": {
+        "editor.tabSize": 2,
+    },
+    "[typescriptreact]": {
+        "editor.tabSize": 2,
+    },
+
+    // React
+    "emmet.syntaxProfiles": {"javascript": "jsx"},
+    "emmet.includeLanguages": {"javascript": "javascriptreact"},
+
+    // Automatic settings
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "editor.minimap.enabled": false,
+    "workbench.activityBar.visible": true,
+    "workbench.statusBar.visible": true,
+    "files.exclude": {
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true
+    },
+
+    // EXTENSIONS
+    // Todo highlight
+    "todohighlight.keywords": [
+    "TODO:", "todo:", "Todo:"
+    ],
+    // Bracket-pair-colorizer
+    "bracket-pair-colorizer-2.colors": [
+        "White",
+        "Gold",
+        "Orchid",
+        "LightSkyBlue"
+    ],
+    "indentRainbow.excludedLanguages": [
+    "javascript",
+        "plaintext"
+    ],
+    "vscode-json-editor.theme": "dark",
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.tabSize": 2
+    },
+    "python.languageServer": "Pylance",
+    "editor.fontFamily": "'Fira Code','Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
+    "workbench.colorTheme": "Noctis High Contrast",
+    "python.formatting.provider": "yapf",
+    "explorer.confirmDragAndDrop": false,
+    "python.analysis.typeCheckingMode": "basic",
+    "explorer.confirmDelete": false,
+    "vim.enableNeovim": true,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "python.showStartPage": false,
+    "editor.lineNumbers": "relative",
+    "jupyter.sendSelectionToInteractiveWindow": true,
+    "jupyter.askForKernelRestart": false,
+    "editor.suggest.showStatusBar": true,
+    "editor.stickyTabStops": true,
+    "workbench.editorAssociations": [
+        {
+            "viewType": "jupyter.notebook.ipynb",
+            "filenamePattern": "*.ipynb"
+        }
+    ]
+}
